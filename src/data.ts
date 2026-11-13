@@ -514,8 +514,8 @@ export const featuredSystemsData: Project[] = [
     skills: ["FastAPI", "PostgreSQL", "Docker", "Telemetry"],
     badge: "Distributed Backend",
     role: "Core Maintainer",
-    github: "https://github.com/Hany-Zamalkawy/NTI_Summer_Intership_Project",
-    link: "https://hany-zamalkawy.github.io/NTI_Summer_Intership_Project/"
+    github: "https://github.com/Hany-Zamalkawy/Fram_Flow_NTI_Summer_Intership_Project",
+    link: "https://hany-zamalkawy.github.io/Fram_Flow_NTI_Summer_Intership_Project/"
   },
   {
     id: "sys-mizan",
@@ -525,8 +525,8 @@ export const featuredSystemsData: Project[] = [
     skills: ["Tesseract OCR", "Drive Webhooks", "n8n Automation", "Streamlit"],
     badge: "AI & Document Automation",
     role: "Automated Pipeline",
-    github: "https://github.com/Hany-Zamalkawy",
-    link: "https://github.com/Hany-Zamalkawy"
+    github: "https://github.com/Hany-Zamalkawy/mizan-egyptian-laws-pipeline",
+    link: "https://github.com/Hany-Zamalkawy/mizan-egyptian-laws-pipeline"
   },
   {
     id: "sys-leon",
@@ -559,6 +559,17 @@ export const featuredSystemsData: Project[] = [
     badge: "Flagship Production System",
     role: "Creator & Lead Architect",
     github: "https://github.com/Hany-Zamalkawy/My-Portfolio-HANY-S-WORLD",
+    link: "https://hany-zamalkawy.github.io/My-Portfolio-HANY-S-WORLD/"
+  },
+  {
+    id: "sys-hanys-world-v2",
+    title: "Hanys-World-V2-Portfolio",
+    description: "Next-generation cyber-minimalist software & data engineering portfolio featuring a terminal HUD, interactive pipeline architecture spec, service catalog, bilingual EN/AR (RTL/LTR) switching, Express REST API, and Cloud Run container deployment.",
+    category: "Full-Stack Architecture",
+    skills: ["React 19", "TypeScript", "Vite", "Tailwind CSS v4", "Express.js", "Framer Motion", "Cloud Run"],
+    badge: "V2 Production Release",
+    role: "Creator & Lead Engineer",
+    github: "https://github.com/Hany-Zamalkawy/Hanys-World-V2-Portfolio",
     link: "https://hany-s-world-597716960036.europe-west2.run.app/"
   }
 ];
@@ -595,8 +606,8 @@ export const projectsData: Project[] = [
     description: "Engineered during NTI Summer Internship to streamline direct farm-to-consumer sales, eliminate intermediaries, and optimize inventory tracking and automated order management.",
     category: "Full-Stack",
     skills: ["Python", "Flask", "REST APIs", "Git", "GitHub Pages"],
-    link: "https://hany-zamalkawy.github.io/NTI_Summer_Intership_Project/",
-    github: "https://github.com/Hany-Zamalkawy/NTI_Summer_Intership_Project"
+    link: "https://hany-zamalkawy.github.io/Fram_Flow_NTI_Summer_Intership_Project/",
+    github: "https://github.com/Hany-Zamalkawy/Fram_Flow_NTI_Summer_Intership_Project"
   },
   {
     id: "proj-2",
@@ -613,8 +624,17 @@ export const projectsData: Project[] = [
     description: "Built and deployed a bilingual EN/AR (RTL/LTR) obsidian engineering portfolio with an interactive Manifest Terminal (lo-fi Web Audio typing SFX), pipeline visualizer, Express API health/contact dispatch, and instant PDF resume compilation.",
     category: "Full-Stack",
     skills: ["React 19", "TypeScript", "Express.js", "Tailwind CSS", "Framer Motion", "Google Cloud Run"],
-    link: "https://hany-s-world-597716960036.europe-west2.run.app/",
+    link: "https://hany-zamalkawy.github.io/My-Portfolio-HANY-S-WORLD/",
     github: "https://github.com/Hany-Zamalkawy/My-Portfolio-HANY-S-WORLD"
+  },
+  {
+    id: "proj-hanys-world-v2",
+    title: "Hanys-World-V2-Portfolio – Cyber-Minimalist V2 Portfolio & Terminal HUD",
+    description: "Engineered the V2 portfolio architecture with React 19, TypeScript, Tailwind CSS v4, Express backend APIs (/api/health, /api/profile, /api/contact), bilingual EN/AR support, and Google Cloud Run deployment.",
+    category: "Full-Stack",
+    skills: ["React 19", "TypeScript", "Express.js", "Tailwind CSS v4", "Framer Motion", "Google Cloud Run"],
+    link: "https://hany-s-world-597716960036.europe-west2.run.app/",
+    github: "https://github.com/Hany-Zamalkawy/Hanys-World-V2-Portfolio"
   },
   {
     id: "proj-4",

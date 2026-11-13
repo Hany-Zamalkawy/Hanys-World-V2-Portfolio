@@ -17,6 +17,7 @@ export default function ProjectsShowcase({
 
   const getProjectIcon = (index: number, id?: string) => {
     if (id === "sys-hanys-world") return "terminal";
+    if (id === "sys-hanys-world-v2") return "deployed_code";
     switch (index) {
       case 0:
         return "hub";
@@ -37,6 +38,13 @@ export default function ProjectsShowcase({
         text: "text-emerald-400",
         hoverIcon: "group-hover:text-emerald-400",
         hoverTitle: "group-hover:text-emerald-400",
+      };
+    }
+    if (id === "sys-hanys-world-v2") {
+      return {
+        text: "text-teal-400",
+        hoverIcon: "group-hover:text-teal-400",
+        hoverTitle: "group-hover:text-teal-400",
       };
     }
     switch (index) {

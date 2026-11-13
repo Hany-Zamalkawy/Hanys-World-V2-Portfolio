@@ -468,8 +468,8 @@ export const arProjects: Project[] = [
     description: "مشروع تم تطويره خلال التدريب الصيفي للمعهد القومي للاتصالات (NTI) لتيسير البيع المباشر من المزارع للمستهلك وإلغاء الوسطاء وتتبع المخزون وأتمتة إدارة الطلبات.",
     category: "Full-Stack",
     skills: ["Python", "Flask", "REST APIs", "Git", "GitHub Pages"],
-    link: "https://hany-zamalkawy.github.io/NTI_Summer_Intership_Project/",
-    github: "https://github.com/Hany-Zamalkawy/NTI_Summer_Intership_Project"
+    link: "https://hany-zamalkawy.github.io/Fram_Flow_NTI_Summer_Intership_Project/",
+    github: "https://github.com/Hany-Zamalkawy/Fram_Flow_NTI_Summer_Intership_Project"
   },
   {
     id: "proj-2",
@@ -486,8 +486,17 @@ export const arProjects: Project[] = [
     description: "تصميم ونشر محفظة أعمال تفاعلية ثنائية اللغة (عربي/إنجليزي) و(RTL/LTR) مع دعم الثيمين، وتصفية المهارات، ومحاكاة موجه الأوامر الطرفية (CLI)، وتصدير فوري للسيرة الذاتية بصيغة PDF.",
     category: "Frontend",
     skills: ["React 19", "TypeScript", "Tailwind CSS", "Google Cloud Run", "Vite"],
-    link: "https://hany-s-world-597716960036.europe-west2.run.app/",
+    link: "https://hany-zamalkawy.github.io/My-Portfolio-HANY-S-WORLD/",
     github: "https://github.com/Hany-Zamalkawy/My-Portfolio-HANY-S-WORLD"
+  },
+  {
+    id: "proj-hanys-world-v2",
+    title: "منصة Hanys-World-V2-Portfolio — الإصدار الثاني التفاعلي",
+    description: "هندسة وتطوير الإصدار الثاني من منصة الأعمال باستخدام React 19 وTypeScript وTailwind CSS v4 مع خادم Express APIs ومعمارية ثنائية اللغة والنشر على Google Cloud Run.",
+    category: "Full-Stack",
+    skills: ["React 19", "TypeScript", "Express.js", "Tailwind CSS v4", "Framer Motion", "Google Cloud Run"],
+    link: "https://hany-s-world-597716960036.europe-west2.run.app/",
+    github: "https://github.com/Hany-Zamalkawy/Hanys-World-V2-Portfolio"
   },
   {
     id: "proj-4",
@@ -706,8 +715,8 @@ export const arFeaturedSystems: Project[] = [
     skills: ["FastAPI", "PostgreSQL", "Docker", "Telemetry"],
     badge: "أنظمة خلفية موزعة",
     role: "المطور الرئيسي",
-    github: "https://github.com/Hany-Zamalkawy/NTI_Summer_Intership_Project",
-    link: "https://hany-zamalkawy.github.io/NTI_Summer_Intership_Project/"
+    github: "https://github.com/Hany-Zamalkawy/Fram_Flow_NTI_Summer_Intership_Project",
+    link: "https://hany-zamalkawy.github.io/Fram_Flow_NTI_Summer_Intership_Project/"
   },
   {
     id: "sys-mizan",
@@ -717,8 +726,8 @@ export const arFeaturedSystems: Project[] = [
     skills: ["Tesseract OCR", "Drive Webhooks", "n8n Automation", "Streamlit"],
     badge: "الذكاء الاصطناعي وأتمتة المستندات",
     role: "خط أنابيب مؤتمت",
-    github: "https://github.com/Hany-Zamalkawy",
-    link: "https://github.com/Hany-Zamalkawy"
+    github: "https://github.com/Hany-Zamalkawy/mizan-egyptian-laws-pipeline",
+    link: "https://github.com/Hany-Zamalkawy/mizan-egyptian-laws-pipeline"
   },
   {
     id: "sys-leon",
@@ -751,6 +760,17 @@ export const arFeaturedSystems: Project[] = [
     badge: "النظام الرئيسي للإنتاج",
     role: "المؤسس والمعماري الرئيسي",
     github: "https://github.com/Hany-Zamalkawy/My-Portfolio-HANY-S-WORLD",
+    link: "https://hany-zamalkawy.github.io/My-Portfolio-HANY-S-WORLD/"
+  },
+  {
+    id: "sys-hanys-world-v2",
+    title: "Hanys-World-V2-Portfolio",
+    description: "الإصدار الثاني من منصة هندسة البرمجيات والبيانات، يضم واجهة طرفية حديثة، ومواصفات معمارية خطوط البيانات، وقائمة الخدمات الهندسية، وتبديل اللغة (عربي/إنجليزي)، وخوادم Express APIs مع النشر السحابي على Cloud Run.",
+    category: "تطوير متكامل ومعمارية الأنظمة",
+    skills: ["React 19", "TypeScript", "Vite", "Tailwind CSS v4", "Express.js", "Framer Motion", "Cloud Run"],
+    badge: "إصدار الإنتاج V2",
+    role: "المؤسس والمهندس الرئيسي",
+    github: "https://github.com/Hany-Zamalkawy/Hanys-World-V2-Portfolio",
     link: "https://hany-s-world-597716960036.europe-west2.run.app/"
   }
 ];
